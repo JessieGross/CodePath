@@ -1,7 +1,7 @@
 ## JessieDemo
 
 ### App Description
-An interactive app where the user gets greeted by me. The user can input a string in the text field and choose to have the greeting replaced. In addition, the user has the option to change the color of the string and the bacground color of the screen. All of which can be reset to default settings by a one tap on the background.  
+An interactive app where the user gets greeted by me. The user can input a string in the text field and choose to have the greeting replaced. In addition, the user has the option to change the color of the string and the background color of the screen. All of which can be reset to default settings by a one tap on the background.  
 
 ### App Walk-though
 

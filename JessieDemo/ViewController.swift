@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         
         // When there is no user input, display message
         if textField.text == "" {
-            textLabel.text = "¯\\_(ツ)_/¯"
+            textLabel.text = "Hello from Jessie! :D"
         }
         
         textField.text = "" // clear the text field
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     
     // One tap gesture to background to reset to default settings.
     @IBAction func onResetGesture(_ sender: Any) {
-        textLabel.text = "Hello! :D"
+        textLabel.text = "Hello from Jessie! :D"
         boxLabel.backgroundColor = UIColor.lightText
         textLabel.textColor = UIColor.black
         view.backgroundColor = backgroundColor

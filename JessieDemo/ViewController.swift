@@ -32,17 +32,43 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // Changes the color of text label as well as its small view (box of the text label).
+    // Changes the color of text label.
     @IBAction func didTapButton(_ sender: Any) {
         print("Hello!")
-        textLabel.textColor = UIColor.cyan
-        boxLabel.backgroundColor = UIColor.black
+        //textLabel.textColor = UIColor.cyan
+        //boxLabel.backgroundColor = UIColor.black
+        
+        if textLabel.textColor == UIColor.red {
+            textLabel.textColor = UIColor.blue
+        }
+        else if textLabel.textColor == UIColor.blue {
+            textLabel.textColor = UIColor.yellow
+        }
+        else if textLabel.textColor == UIColor.white {
+            textLabel.textColor = UIColor.red
+        }
+        else {
+            textLabel.textColor = UIColor.white
+        }
     
     }
     
     // Changes the background color.
     @IBAction func didTapViewButton(_ sender: Any) {
-        view.backgroundColor = UIColor.yellow
+        //view.backgroundColor = UIColor.yellow
+        
+        if view.backgroundColor == UIColor.red {
+            view.backgroundColor = UIColor.cyan
+        }
+        else if view.backgroundColor == UIColor.cyan {
+            view.backgroundColor = UIColor.green
+        }
+        else if view.backgroundColor == UIColor.green {
+            view.backgroundColor = UIColor.red
+        }
+        else {
+            view.backgroundColor = UIColor.green
+        }
     }
     
     // Changes the label to user input.
